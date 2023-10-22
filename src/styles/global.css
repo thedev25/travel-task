@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  /* font-family: "Indie Flower", cursive;
+  font-family: "Imprima", sans-serif;
+  font-family: "Inconsolata", monospace;
+  font-family: "Indie Flower", cursive;
+  font-family: "Inter", sans-serif; */
+  font-family: "Inter", sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1340px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+:root {
+  --primary-color: #fff;
+  --secondary-color: #000;
+  --bg-color: #d5eeed;
+  --btn-color: #2c1010;
+}
