@@ -16,7 +16,12 @@ function Header() {
               </li>
             </ol>
             <div className="logo">
-              <img src={Logo} alt="" />
+              <img className="img" src={Logo} alt="" />
+              <img
+                className="mobile__img"
+                src={require("../../assets/MobileLogo.png")}
+                alt=""
+              />
             </div>
             <ol>
               <li>
@@ -46,7 +51,6 @@ function Header() {
             </div>
           </div>
         </section>
-        <div>Salom</div>
       </header>
     </div>
   );
