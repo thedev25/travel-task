@@ -3,6 +3,7 @@ import Header from "./Header/Header";
 import With from "../pages/With/With";
 import About from "../pages/About/About";
 import Travels from "../pages/Travels/Travels";
+import Contact from "../pages/Contact/Contact";
 
 function Layout() {
   return (
@@ -11,6 +12,7 @@ function Layout() {
       <With />
       <About />
       <Travels />
+      <Contact />
     </div>
   );
 }
