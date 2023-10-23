@@ -21,9 +21,12 @@ function About() {
               moment that stands out the most, funny enough, happened when we
               were riding the shuttle back to our Disney resort after a full day
               at the parks.I watched as my 14-year-old stepson leaned his head
-              against the pole and closed his eyes—he was completely tuckered
-              out (do you know how hard it is to tucker out a 14-year-old?!).
-              Mission
+              against the pole{" "}
+              <span>
+                {" "}
+                and closed his eyes—he was completely tuckered out (do you know
+                how hard it is to tucker out a 14-year-old?!). Mission
+              </span>
             </p>
           </div>
         </div>
