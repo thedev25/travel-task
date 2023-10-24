@@ -69,7 +69,9 @@ function Header() {
                     Biz bilan vaqtingizni <br /> yanada maroqli otkazing!
                   </p>
                   <div className="item__btn">
-                    <button>Qani ketdik!</button>
+                    <button>
+                      <a href="#boglanish">Qani ketdik!</a>
+                    </button>
                   </div>
                 </div>
               </div>

@@ -98,13 +98,13 @@ header section .section__box .item__desk button {
   padding: 12px 50px;
   border: none;
   background-color: var(--bg-color);
-  color: var(--btn-color);
-  color: #2c1010;
+}
+header section .section__box .item__desk a {
   font-family: Inconsolata;
   font-size: 24px;
-  font-style: normal;
+  color: var(--btn-color);
+  color: #2c1010;
   font-weight: 400;
-  line-height: normal;
 }
 
 /* Section ---- Section ---- Section */
@@ -176,7 +176,7 @@ header section .section__box .item__desk button {
     height: 60px;
   }
   #menu:checked + ul {
-    transform: translate(0);
+    transform: translateY(0);
   }
   header nav ul {
     position: absolute;
@@ -187,7 +187,7 @@ header section .section__box .item__desk button {
     height: 55vh;
     flex-direction: column;
     background-color: var(--bg-color);
-    transform: translate(100%);
+    transform: translateY(-100%);
     z-index: 10;
     gap: 10px;
   }

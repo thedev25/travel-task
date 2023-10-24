@@ -23,9 +23,9 @@ function Contact() {
               within the resort. Explore our gated enclave of Cap Cana to find
               golf courses and deep-sea fishing excursions close by.
             </p>
-            <div className="section__form">
+            <div className="section__form" id="boglanish">
               <input type="text " placeholder="Ismingiz" />
-              <input type="tel" placeholder="No’meringiz" />
+              <input type="number" placeholder="No’meringiz" />
               <input type="submit" disabled="disabled" value="Jo’natish" />
             </div>
           </div>
@@ -33,11 +33,11 @@ function Contact() {
             <img src={require("../../assets/CarouselImgThree.png")} alt="" />
           </div>
         </div>
-        <div className="contact__form">
+        <div className="contact__form" id="boglanish">
           <div className="form__card">
             <h2>Bog’lanish</h2>
             <input type="text" placeholder="Ismingiz" />
-            <input type="tel" placeholder="No’meringiz" />
+            <input type="number" placeholder="No’meringiz" />
             <input type="submit" value="Jontish" />
           </div>
           <img src={require("../../assets/Plane.png")} alt="" />
