@@ -5,7 +5,6 @@ import About from "../pages/About/About";
 import Travels from "../pages/Travels/Travels";
 import Contact from "../pages/Contact/Contact";
 import Footer from "./Footer/Footer";
-import UserCarousel from "../layout/Carousel/UserCarousel";
 
 function Layout() {
   return (
@@ -14,7 +13,6 @@ function Layout() {
       <With />
       <About />
       <Travels />
-      <UserCarousel />
       <Contact />
       <Footer />
     </div>

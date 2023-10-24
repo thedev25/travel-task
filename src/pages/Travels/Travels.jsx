@@ -1,6 +1,6 @@
 import React from "react";
-// import Carousel, { slidesToShowPlugin } from "@brainhubeu/react-carousel";
-// import "@brainhubeu/react-carousel/lib/style.css";
+import Carousel, { slidesToShowPlugin } from "@brainhubeu/react-carousel";
+import "@brainhubeu/react-carousel/lib/style.css";
 import "./Travels.css";
 
 function Travels() {
@@ -11,7 +11,7 @@ function Travels() {
           <h2>Sayohatlarim</h2>
         </div>
       </div>
-      {/* <div className="carosusel">
+      <div className="carosusel">
         <Carousel
           plugins={[
             "centered",
@@ -41,7 +41,7 @@ function Travels() {
             <p>Amirlik</p>
           </div>
         </Carousel>
-      </div> */}
+      </div>
     </div>
   );
 }
