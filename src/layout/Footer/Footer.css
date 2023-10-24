@@ -1,0 +1,36 @@
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 100px;
+}
+footer ol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 7vw;
+}
+footer ol a {
+  color: var(--secondary-color);
+  font-size: 2vw;
+  font-weight: 100;
+}
+footer .mainlogo img {
+  width: 16vw;
+}
+footer .company__logo img {
+  width: 17vw;
+}
+@media screen and (max-width: 576px) {
+  footer ol {
+    display: none;
+  }
+  footer .mainlogo img {
+    width: 30vw;
+  }
+  footer .company__logo img {
+    width: 34vw;
+  }
+}

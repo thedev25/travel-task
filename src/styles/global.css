@@ -4,12 +4,8 @@
   padding: 0;
   text-decoration: none;
   list-style-type: none;
-  /* font-family: "Indie Flower", cursive;
-  font-family: "Imprima", sans-serif;
-  font-family: "Inconsolata", monospace;
-  font-family: "Indie Flower", cursive;
-  font-family: "Inter", sans-serif; */
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
 }
 .container {
   width: 100%;

@@ -9,10 +9,10 @@ function Header() {
           <nav>
             <ol>
               <li>
-                <a href="">Asosiy</a>
+                <a href="/">Asosiy</a>
               </li>
               <li>
-                <a href="">Men haqimda</a>
+                <a href="#about">Men haqimda</a>
               </li>
             </ol>
             <div className="logo">
@@ -23,14 +23,39 @@ function Header() {
                 alt=""
               />
             </div>
+
             <ol>
               <li>
-                <a href="">Sayohatlarim</a>
+                <a href="#travel">Sayohatlarim</a>
               </li>
               <li>
-                <a href="">Bog’lanish</a>
+                <a href="#contact">Bog’lanish</a>
               </li>
             </ol>
+
+            <label htmlFor="menu">
+              <img src={require("../../assets/Open.png")} alt="" />
+            </label>
+            <input type="checkbox" id="menu" />
+
+            <ul>
+              <img src={require("../../assets/NavMobileLogo.png")} alt="" />
+              <li>
+                <a href="/">Asosiy</a>
+              </li>
+              <li>
+                <a href="#about">Men haqimda</a>
+              </li>
+              <li>
+                <a href="#travel">Sayohatlarim</a>
+              </li>
+              <li>
+                <a href="#contact">Bog’lanish</a>
+              </li>
+              <label htmlFor="menu">
+                <img src={require("../../assets/close.png")} alt="" />
+              </label>
+            </ul>
           </nav>
         </div>
         <section>

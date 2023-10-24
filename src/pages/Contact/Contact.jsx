@@ -4,7 +4,7 @@ import "./Contact.css";
 function Contact() {
   return (
     <div>
-      <div className="contact">
+      <div className="contact" id="contact">
         <div className="contact__bg">
           <div className="bg__text">
             <h2>Bog’lanish</h2>
@@ -32,6 +32,15 @@ function Contact() {
           <div className="section__left">
             <img src={require("../../assets/CarouselImgThree.png")} alt="" />
           </div>
+        </div>
+        <div className="contact__form">
+          <div className="form__card">
+            <h2>Bog’lanish</h2>
+            <input type="text" placeholder="Ismingiz" />
+            <input type="tel" placeholder="No’meringiz" />
+            <input type="submit" value="Jontish" />
+          </div>
+          <img src={require("../../assets/Plane.png")} alt="" />
         </div>
       </div>
     </div>

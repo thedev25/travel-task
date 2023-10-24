@@ -5,7 +5,7 @@ import "./Travels.css";
 
 function Travels() {
   return (
-    <div className="travels">
+    <div className="travels" id="travel">
       <div className="travels__bg">
         <div className="bg__text">
           <h2>Sayohatlarim</h2>

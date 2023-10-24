@@ -28,6 +28,16 @@ header nav ol a {
   font-weight: 100;
   font-size: 2.7vw;
 }
+header nav ul {
+  display: none;
+  transition: 0.6s;
+}
+#menu {
+  display: none;
+}
+label {
+  display: none;
+}
 /* Navv ---- Nav ---- Nav */
 /* Section ---- Section ---- Section */
 header section {
@@ -156,6 +166,49 @@ header section .section__box .item__desk button {
   }
   header nav {
     padding: 0;
+    position: relative;
+  }
+  label {
+    display: block;
+  }
+  label img {
+    width: 60px;
+    height: 60px;
+  }
+  #menu:checked + ul {
+    transform: translate(0);
+  }
+  header nav ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 55vh;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    transform: translate(100%);
+    z-index: 10;
+    gap: 10px;
+  }
+  header nav ul label {
+    position: absolute;
+    right: 0;
+    top: 25px;
+  }
+  header nav ul label img {
+    width: 50px;
+    height: 50px;
+  }
+  header nav ul a {
+    color: var(--secondary-color);
+    font-size: 5vw;
+    font-weight: 100;
+    padding-left: 50px;
+  }
+  header nav ul img {
+    width: 150px;
+    height: 100px;
   }
   header nav .logo .img {
     display: none;

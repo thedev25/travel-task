@@ -4,6 +4,7 @@ import With from "../pages/With/With";
 import About from "../pages/About/About";
 import Travels from "../pages/Travels/Travels";
 import Contact from "../pages/Contact/Contact";
+import Footer from "./Footer/Footer";
 
 function Layout() {
   return (
@@ -13,6 +14,7 @@ function Layout() {
       <About />
       <Travels />
       <Contact />
+      <Footer />
     </div>
   );
 }
