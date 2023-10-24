@@ -70,7 +70,12 @@ function Header() {
                   </p>
                   <div className="item__btn">
                     <button>
-                      <a href="#boglanish">Qani ketdik!</a>
+                      <a className="link1" href="#boglanish">
+                        Qani ketdik!
+                      </a>
+                      <a className="link2" href="#aloqa">
+                        Qani ketdik
+                      </a>
                     </button>
                   </div>
                 </div>

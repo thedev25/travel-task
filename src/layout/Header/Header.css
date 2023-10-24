@@ -99,14 +99,16 @@ header section .section__box .item__desk button {
   border: none;
   background-color: var(--bg-color);
 }
-header section .section__box .item__desk a {
+header section .section__box .item__desk .link1 {
   font-family: Inconsolata;
   font-size: 24px;
   color: var(--btn-color);
   color: #2c1010;
   font-weight: 400;
 }
-
+.link2 {
+  display: none;
+}
 /* Section ---- Section ---- Section */
 /* Media--------- Media Media---------- */
 @media screen and (max-width: 992px) {
@@ -217,6 +219,17 @@ header section .section__box .item__desk a {
     display: block;
     width: 120px;
     height: 100px;
+  }
+  header section .section__box .item__desk .link1 {
+    display: none;
+  }
+  .link2 {
+    display: block;
+    font-family: Inconsolata;
+    font-size: 24px;
+    color: var(--btn-color);
+    color: #2c1010;
+    font-weight: 400;
   }
 
   header nav ol {

@@ -23,7 +23,7 @@ function Contact() {
               within the resort. Explore our gated enclave of Cap Cana to find
               golf courses and deep-sea fishing excursions close by.
             </p>
-            <div className="section__form" id="boglanish">
+            <div className="section__form" id="aloqa">
               <input type="text " placeholder="Ismingiz" />
               <input type="number" placeholder="No’meringiz" />
               <input type="submit" disabled="disabled" value="Jo’natish" />
