@@ -5,6 +5,7 @@
   "dependencies": {
     "@brainhubeu/react-carousel": "^2.0.4",
     "@coreui/react": "^5.0.0-alpha.3",
+    "@emailjs/browser": "^3.11.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@testing-library/jest-dom": "^5.14.1",

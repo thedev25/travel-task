@@ -148,6 +148,7 @@ header section .section__box .item__desk .ant-btn {
   padding-left: 2.2vw;
   margin-top: 20px;
   outline: none;
+  cursor: pointer;
 }
 .form__item {
   width: 28vw;
@@ -189,29 +190,6 @@ header section .section__box .item__desk .ant-btn {
   color: #2c1010;
 }
 
-@media screen and (max-width: 576px) {
-  .form__card {
-    width: 38vw;
-  }
-  .ant-modal {
-    width: 80% !important;
-  }
-  .form__card {
-    width: 100%;
-  }
-  .form__card .int1,
-  .int2 {
-    width: 40vw !important;
-    height: 40px;
-    font-size: 16px;
-  }
-  .form__item {
-    width: 40vw !important;
-  }
-  .form__item input {
-    height: 40px !important;
-  }
-}
 /* Media--------- Media Media---------- */
 @media screen and (max-width: 992px) {
   header section .section__box {
@@ -354,3 +332,29 @@ header section .section__box .item__desk .ant-btn {
   }
 }
 /* Media--------- Media Media---------- */
+@media screen and (max-width: 575px) {
+  .form__card {
+    width: 38vw;
+  }
+  .ant-modal {
+    width: 80% !important;
+  }
+  .form__card {
+    width: 100%;
+  }
+  .form__card .int1,
+  .int2 {
+    width: 40vw !important;
+    height: 40px;
+    font-size: 16px;
+  }
+  .form__card .int2 {
+    height: 30px !important;
+  }
+  .form__item {
+    width: 40vw !important;
+  }
+  .form__item input {
+    height: 40px !important;
+  }
+}

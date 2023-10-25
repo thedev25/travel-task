@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./Header.css";
 import Logo from "../../assets/Logo.jpg";
 import { Button, Modal } from "antd";
 import InputMask from "react-input-mask";
+import emailjs from "@emailjs/browser";
 function Header() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const showModal = () => {
@@ -10,6 +11,27 @@ function Header() {
   };
   const handleCancel = () => {
     setIsModalOpen(false);
+  };
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_r10cnja",
+        "template_38potmi",
+        form.current,
+        "ZRefxqmeC7asfjbKZ"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
   };
 
   return (
@@ -79,34 +101,38 @@ function Header() {
                     Biz bilan vaqtingizni <br /> yanada maroqli otkazing!
                   </p>
                   <div className="item__btn">
-                    <Button type="primary" onClick={showModal}>
-                      Qani Ketik!
-                    </Button>
-                    <Modal open={isModalOpen} onCancel={handleCancel}>
-                      <div className="form__card">
-                        <h2>Boglanish</h2>
-                        <input
-                          className="int1"
-                          maxLength={10}
-                          type="text"
-                          placeholder="Ismingiz"
-                        />
-                        <div className="form__item ">
-                          <h6>+998</h6>
-                          <InputMask
-                            placeholder="00 000-00-00"
-                            mask="99 999-99-99"
-                            maskChar={null}
-                          />
+                    <form ref={form} onSubmit={sendEmail}>
+                      <Button type="primary" onClick={showModal}>
+                        Qani Ketik!
+                      </Button>
+                      <Modal open={isModalOpen} onCancel={handleCancel}>
+                        <div className="form__card">
+                          <form ref={form} onSubmit={sendEmail}>
+                            <h2>Boglanish</h2>
+                            <input
+                              name="user_email"
+                              className="int1"
+                              type="text"
+                              placeholder="Ismingiz"
+                            />
+                            <div className="form__item ">
+                              <h6>+998</h6>
+                              <InputMask
+                                name="user_name"
+                                placeholder="00 000-00-00"
+                                mask="99 999-99-99"
+                                maskChar={null}
+                              />
+                            </div>
+                            <input
+                              className="int2"
+                              type="submit"
+                              value="Jo’natish"
+                            />
+                          </form>
                         </div>
-                        <input
-                          className="int2"
-                          type="submit"
-                          disabled="disabled"
-                          value="Jo’natish"
-                        />
-                      </div>
-                    </Modal>
+                      </Modal>
+                    </form>
                   </div>
                 </div>
               </div>
