@@ -53,11 +53,14 @@
   padding-top: 20px;
 }
 .main__with .main__section p {
-  max-width: 38vw;
+  text-align: justify;
+  max-width: 45vw;
   color: #454545;
-  font-size: 1.6vw;
+  font-size: 1.7vw;
+  line-height: 2.3vw;
   font-weight: 400;
   padding-top: 30px;
+  padding-bottom: 50px;
 }
 .main__with .main__section img {
   width: 456px;
@@ -137,9 +140,10 @@
     padding-top: 40px;
   }
   .main__with .main__section p {
-    font-size: 3vw;
+    font-size: 15px;
     max-width: 80vw;
-    padding: 0;
+    /* padding: 0; */
+    line-height: 23px;
   }
   .main__with .main__section img {
     width: 300px;

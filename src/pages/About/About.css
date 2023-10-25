@@ -50,11 +50,11 @@
 }
 .about .about__section p {
   text-align: justify;
-  max-width: 450px;
+  max-width: 600px;
   color: var(--secondary--color);
-  font-size: 1.7vw;
+  font-size: 1.2vw;
   font-weight: 300;
-  line-height: 35px;
+  line-height: 25px;
   padding-top: 40px;
 }
 @media screen and (max-width: 992px) {
@@ -71,6 +71,12 @@
   .about .about__section img {
     width: 340px;
     height: 450px;
+  }
+  .about .about__section p {
+    font-size: 1.4vw;
+    letter-spacing: 0.02px;
+    line-height: 20px;
+    padding-top: 20px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -89,10 +95,13 @@
   .about .about__section h3 {
     font-size: 3.4vw;
     padding-top: 50px;
+    padding-left: 20px;
   }
   .about .about__section p {
-    max-width: 45vw;
-    line-height: 30px;
+    font-size: 1.5vw;
+    padding-left: 20px;
+    max-width: 50vw;
+    line-height: 16px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -131,9 +140,11 @@
     text-align: center;
   }
   .about .about__section p {
-    max-width: 380px;
-    line-height: 30px;
-    font-size: 16px;
+    max-width: 90vw;
+    line-height: 18px;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 10px;
   }
   .about .about__section img {
     width: 250px;

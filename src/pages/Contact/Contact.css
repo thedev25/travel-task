@@ -53,9 +53,9 @@
   text-align: justify;
   max-width: 350px;
   color: var(--secondary--color);
-  font-size: 1.7vw;
+  font-size: 1.3vw;
   font-weight: 300;
-  line-height: 40px;
+  line-height: 2vw;
   padding-top: 40px;
 }
 .contact .section__form {
@@ -165,8 +165,8 @@
   }
 
   .contact .contact__section p {
-    font-size: 2vw;
-    line-height: 35px;
+    font-size: 1.7vw;
+    line-height: 2vw;
   }
 }
 @media screen and (max-width: 768px) {
@@ -179,16 +179,24 @@
     padding-right: 10px;
   }
   .contact .contact__section img {
-    width: 260px;
-    height: 400px;
+    width: 250px;
+    height: 380px;
+    margin-top: 70px;
+    margin-right: 30px;
   }
   .contact .contact__section h3 {
     font-size: 3.4vw;
     padding-top: 50px;
   }
   .contact .contact__section p {
-    max-width: 45vw;
-    line-height: 30px;
+    font-size: 1.6svw;
+    padding-top: 10px;
+    max-width: 35vw;
+    line-height: 18px;
+    padding-bottom: 40px;
+  }
+  .contact__form .form__card {
+    padding-left: 0;
   }
 }
 @media screen and (max-width: 576px) {

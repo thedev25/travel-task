@@ -7,7 +7,7 @@ function With() {
       <div className="main__with">
         <div className="main__bg">
           <div className="bg__decs">
-            <h3>Anvar Rahimov bilan!</h3>
+            <h3>Beknazar Kamoldinov!</h3>
             <button>Qani ketdik!</button>
           </div>
         </div>
@@ -18,12 +18,18 @@ function With() {
             </h2>
 
             <p>
-              Discover the Blue OceanTravel Design difference: EXPLORE PLANNING
-              SERVICES <br /> When every morning feels like a mad dash to get
-              the kids out the door <br /> …When every afternoon ends with you
-              playing family chauffeur, chef, and <br /> homework enforcer …When
-              you can’t remember the last moment your family <br /> had
-              unstructured, unscheduled, unhurried together{" "}
+              Дуне буйлаб арзон ва бепул сайохат килишни хохласезми. Ман шу
+              сайохат кампанияга 2020 йилда 13 сентябрь ойи азо сайохатчи болиб
+              кушилдим. Сизларни хам шу сайохат кампанияга таклиф киламан сизлар
+              хам тез орада дуне буйлаб арзон ва бепул сайохат килишиз мумкин.
+              БУ мани бринчи сайохатим Араб амирлиги буйлаб 7 кечаю 8 кун
+              сайохат бизани сайохатлар денгиз оркали болади. Бир борганда 4-5
+              давлат бир нечта шахарларини куриб келишиз мумкин. БУ одий
+              сайохатан фарки сиз чемодан кутариб юрмесиз, шахардан шахарга
+              юрмесиз, еб ичиш, етиб туриш, хар хил уйингохлар, аква парк,
+              басейнлар, хамаси бепул узиз йигиб борган маблагиз ичида. Бундай
+              имконият хеч кайси фирма еки кампанияда йок. Бундай имкониятан
+              фойдаланиб колинг.
             </p>
           </div>
           <div className="section__right">

@@ -18,11 +18,20 @@ function Contact() {
               tashakkur!
             </h3>
             <p>
-              Discover the ultimate escape at Hyatt Ziva Cap Cana. Dive into the
-              clear waters of Juanillo Beach, lounge by a swim-up bar in one of
-              our infinity pools, and dine in style at 12 restaurants and bars
-              within the resort. Explore our gated enclave of Cap Cana to find
-              golf courses and deep-sea fishing excursions close by.
+              Араб амирлиги буйлаб 7 кечаю 8 кун сайохат килиб келдим. Бундан
+              олдин ман хеч ерга бомаганман бу жуда ажойиб хар куни хар хил
+              давлат ва шахарлар. СИЗ ухлаб турсез Яна бир бошка шахардасиз
+              лайнерда хама нарсалар бепул 24 соат шведский стол сиз учун
+              ишледи, Яна сизга кечки рестаран бриктрилган бу хам бепул. Хар хил
+              тансих таомлар, хар хил шоулар, дунени малхур юлдузлари келиб
+              бепул канцертлар беради, дискотека дейсизми, караоке дейсизми
+              хамаси сиз учун бепул бу мужиза. Буни сиз качон англаб етасиз
+              качонки сиз шу сайохат кампанияга кушилганизда. Ойлеманки сиз хам
+              тез орада бир карорга келасиз деган умитдаман. Яна 5-10 йилардан
+              кегин жойлар комеди. Биз унда яхшигина натижаларга чикиб олган
+              буламиз. Хазир вокт бор, жойлар бор, ешсиз, кучиз бор харакат
+              килиб колинг. Узиз учун вокт ажратинг еки вакт сиз учун ажратади.
+              БУ кунлар утиб кетаверади хеч ортга кайтмеди.
             </p>
             <div className="section__form" id="aloqa">
               <input type="text" className="intone" placeholder="Ismingiz" />
