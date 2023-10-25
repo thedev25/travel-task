@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import Logo from "../../assets/Logo.jpg";
+import { Button, Modal } from "antd";
+import InputMask from "react-input-mask";
 function Header() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const showModal = () => {
+    setIsModalOpen(true);
+  };
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div>
       <header>
@@ -69,14 +79,34 @@ function Header() {
                     Biz bilan vaqtingizni <br /> yanada maroqli otkazing!
                   </p>
                   <div className="item__btn">
-                    <button>
-                      <a className="link1" href="#boglanish">
-                        Qani ketdik!
-                      </a>
-                      <a className="link2" href="#aloqa">
-                        Qani ketdik
-                      </a>
-                    </button>
+                    <Button type="primary" onClick={showModal}>
+                      Qani Ketik!
+                    </Button>
+                    <Modal open={isModalOpen} onCancel={handleCancel}>
+                      <div className="form__card">
+                        <h2>Boglanish</h2>
+                        <input
+                          className="int1"
+                          maxLength={10}
+                          type="text"
+                          placeholder="Ismingiz"
+                        />
+                        <div className="form__item ">
+                          <h6>+998</h6>
+                          <InputMask
+                            placeholder="00 000-00-00"
+                            mask="99 999-99-99"
+                            maskChar={null}
+                          />
+                        </div>
+                        <input
+                          className="int2"
+                          type="submit"
+                          disabled="disabled"
+                          value="Jo’natish"
+                        />
+                      </div>
+                    </Modal>
                   </div>
                 </div>
               </div>

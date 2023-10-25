@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
+import InputMask from "react-input-mask";
 
 function Contact() {
   return (
@@ -24,22 +25,52 @@ function Contact() {
               golf courses and deep-sea fishing excursions close by.
             </p>
             <div className="section__form" id="aloqa">
-              <input type="text " placeholder="Ismingiz" />
-              <input type="number" placeholder="No’meringiz" />
-              <input type="submit" disabled="disabled" value="Jo’natish" />
+              <input type="text" className="intone" placeholder="Ismingiz" />
+              <div className="form__itemtwo">
+                <h6>+998</h6>
+                <InputMask
+                  placeholder="00 000-00-00"
+                  mask="99 999-99-99"
+                  maskChar={null}
+                />
+              </div>
+              <input
+                className="inttwo"
+                type="submit"
+                disabled="disabled"
+                value="Jo’natish"
+              />
             </div>
           </div>
           <div className="section__left">
             <img src={require("../../assets/CarouselImgThree.png")} alt="" />
           </div>
         </div>
-        <div className="contact__form" id="boglanish">
+        <div className="contact__form">
           <div className="form__card">
             <h2>Bog’lanish</h2>
-            <input type="text" placeholder="Ismingiz" />
-            <input type="number" placeholder="No’meringiz" />
-            <input type="submit" value="Jontish" />
+            <input
+              className="int1"
+              maxLength={10}
+              type="text"
+              placeholder="Ismingiz"
+            />
+            <div className="form__item">
+              <span>+998</span>
+              <InputMask
+                placeholder="00 000-00-00"
+                mask="99 999-99-99"
+                maskChar={null}
+              />
+            </div>
+            <input
+              className="int2"
+              type="submit"
+              disabled="disabled"
+              value="Jo’natish"
+            />
           </div>
+
           <img src={require("../../assets/Plane.png")} alt="" />
         </div>
       </div>

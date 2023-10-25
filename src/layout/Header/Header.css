@@ -94,22 +94,124 @@ header section .section__box .item__desk .item__btn {
   justify-content: center;
   margin: 45px 0 50px 0;
 }
-header section .section__box .item__desk button {
-  padding: 12px 50px;
+header section .section__box .item__desk .ant-btn {
+  /* padding: 0px 50px; */
+  width: 250px;
+  height: 48px;
   border: none;
   background-color: var(--bg-color);
-}
-header section .section__box .item__desk .link1 {
   font-family: Inconsolata;
   font-size: 24px;
   color: var(--btn-color);
   color: #2c1010;
   font-weight: 400;
+  border-radius: 0 !important;
 }
-.link2 {
+
+/* Section ---- Section ---- Section */
+
+.ant-modal {
+  width: 50% !important;
+}
+.ant-modal-content {
+  padding: 30px !important;
+  background-color: rgba(213, 238, 237, 0.9) !important;
+}
+.ant-modal-footer {
   display: none;
 }
-/* Section ---- Section ---- Section */
+
+.form__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 45vw;
+  padding-bottom: 50px;
+}
+.form__card h2 {
+  font-family: Imprima;
+  font-size: 4.5vw;
+  font-weight: 400;
+  color: #2c1010;
+}
+.form__card .int1,
+.int2 {
+  width: 28vw;
+  height: 60px;
+  border: none;
+  background-color: #9fd0d1;
+  color: #2c1010;
+  font-family: Inconsolata;
+  font-size: 2.3vw;
+  font-weight: 400;
+  padding-left: 2.2vw;
+  margin-top: 20px;
+  outline: none;
+}
+.form__item {
+  width: 28vw;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #9fd0d1;
+}
+.form__item h6 {
+  font-family: Inconsolata;
+  font-weight: 400;
+  font-size: 2.5vw;
+  padding-left: 2vw;
+  padding-right: 5px;
+}
+.form__item input {
+  width: 100%;
+  height: 60px;
+  background-color: #9fd0d1;
+  outline: none !important;
+  border: none;
+  background-color: #9fd0d1;
+  color: #2c1010;
+  font-family: Inconsolata;
+  font-size: 2.5vw;
+  font-weight: 400;
+}
+
+.form__card .int2 {
+  background-color: #2373af;
+  padding: 0;
+}
+
+.contact__form .form__card input::placeholder {
+  color: var(--primary-color);
+  font-family: Inconsolata;
+  font-size: 2.5vw;
+  font-weight: 400;
+  color: #2c1010;
+}
+
+@media screen and (max-width: 576px) {
+  .form__card {
+    width: 38vw;
+  }
+  .ant-modal {
+    width: 80% !important;
+  }
+  .form__card {
+    width: 100%;
+  }
+  .form__card .int1,
+  .int2 {
+    width: 40vw !important;
+    height: 40px;
+    font-size: 16px;
+  }
+  .form__item {
+    width: 40vw !important;
+  }
+  .form__item input {
+    height: 40px !important;
+  }
+}
 /* Media--------- Media Media---------- */
 @media screen and (max-width: 992px) {
   header section .section__box {
@@ -219,17 +321,6 @@ header section .section__box .item__desk .link1 {
     display: block;
     width: 120px;
     height: 100px;
-  }
-  header section .section__box .item__desk .link1 {
-    display: none;
-  }
-  .link2 {
-    display: block;
-    font-family: Inconsolata;
-    font-size: 24px;
-    color: var(--btn-color);
-    color: #2c1010;
-    font-weight: 400;
   }
 
   header nav ol {
