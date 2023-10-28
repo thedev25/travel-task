@@ -48,7 +48,10 @@ function Header() {
               </li>
             </ol>
             <div className="logo">
-              <img className="img" src={Logo} alt="" />
+              <a href="/">
+                <img className="img" src={Logo} alt="" />
+              </a>
+
               <img
                 className="mobile__img"
                 src={require("../../assets/MobileLogo.png")}

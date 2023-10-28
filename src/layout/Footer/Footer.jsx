@@ -6,7 +6,10 @@ function Footer() {
     <div>
       <footer>
         <div className="mainlogo">
-          <img src={require("../../assets/FooterLogo.png")} alt="" />
+          <a href="/">
+            {" "}
+            <img src={require("../../assets/FooterLogo.png")} alt="" />
+          </a>
         </div>
         <ol>
           <li>
@@ -23,7 +26,9 @@ function Footer() {
           </li>
         </ol>
         <div className="company__logo">
-          <img src={require("../../assets/PrimeTechLogo.png")} alt="" />
+          <a href="https://t.me/PrimeTech_hr4" target="_blank">
+            <img src={require("../../assets/PrimeTechLogo.png")} alt="" />
+          </a>
         </div>
       </footer>
     </div>
